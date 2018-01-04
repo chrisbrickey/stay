@@ -16,4 +16,4 @@ Airbnb clone written in Java using Spring Boot framework
 |Endpoint                      | Description                  | Example
 |------------------------------|------------------------------|------------
 | GET /api/search/             | returns default city as json | http://localhost:8080/api/search/
-| GET /api/search?city=:city   | returns custom city as json  | http://localhost:8080/api/search?city=NYC
+| GET /api/search?city=:city   | returns custom city as json  | http://localhost:8080/api/search?city=SanFrancisco
