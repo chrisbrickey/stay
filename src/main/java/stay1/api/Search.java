@@ -1,4 +1,5 @@
 package stay1;
+//This is the Search model and class
 
 public class Search {
 

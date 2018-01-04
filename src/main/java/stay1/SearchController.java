@@ -11,7 +11,7 @@ public class SearchController {
     private static final String template = "These are the results for %s:";
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping("/search")
+    @RequestMapping("/api/search")
     public Search search(@RequestParam(value="city", defaultValue="NYC") String city) {
         return new Search(counter.incrementAndGet(),
                 String.format(template, city));
