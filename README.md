@@ -9,7 +9,7 @@ Airbnb clone written in Java using Spring Boot framework
 ## Run this program
 * Ensure that run.sh is executable: `chmod +x run.sh`
 * Run the server: `./run.sh`  
-* Run tests: `gradle test`
+* Run tests: `gradle test -i` (i is for interactive output)
 * Open in browser: `http://localhost:8080/`
 * View a city: `http://localhost:8080/search?city=NYC`
 
