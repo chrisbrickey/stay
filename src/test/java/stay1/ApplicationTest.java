@@ -13,7 +13,7 @@ public class ApplicationTest {
 
     @Test
     public void contextLoads() throws Exception {
-        assertThat(1).isEqualTo(2);
+        assertThat(1).isEqualTo(1);
     }
 
 }
