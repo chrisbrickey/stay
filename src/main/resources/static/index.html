@@ -1,12 +1,19 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>Stay</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-    <h1>Stay</h1>
-    </br>
-    <p>Search cities <a href="/search">here</a></p>
-</body>
+    <head>
+        <title>Stay</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <h1>Stay</h1>
+        </br>
+        <p>Search cities <a href="/search">here</a></p>
+
+        <form method="GET" action="/search">
+            <label>Search</label>
+            <input type="text" name="city" placeholder="Try 'Barcelona'">
+            <input type="submit" value="Search"/>
+        </form>
+
+    </body>
 </html>
