@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class SearchController {
 
     @RequestMapping("/search")
-    public String greeting(@RequestParam(value="city", required=false, defaultValue="NYC") String city, Model model) {
+    public String greeting(@RequestParam(value="city", required=false, defaultValue="Barcelona") String city, Model model) {
         model.addAttribute("city", city);
         return "search";
     }
