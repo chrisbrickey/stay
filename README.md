@@ -11,7 +11,6 @@ Airbnb clone written in Java using Spring Boot framework
 * Run the server: `./run.sh`  
 * Run tests: `gradle test -i` (i is for interactive output)
 * Open in browser: `http://localhost:8080/`
-* View a city: `http://localhost:8080/search?city=NYC`
 
 ## API Endpoints
 |Endpoint                      | Description                  | Example
